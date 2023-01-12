@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task01</title>
+</head>
+
+<body>
+
+    <button onclick="smileOn()">Smile Please</button>
+    <button onclick="noEmotion()">No Emotion</button>
+    <img src="https://st2.depositphotos.com/1001911/7965/v/450/depositphotos_79658338-stock-illustration-laughing-with-closed-eyes-emoticon.jpg"
+        alt="SmileFace" height="400px" width="400px" id="img">
+    <button onclick="faceSad()">Sad Please</button>
+    <button onclick="faceAngry()">Angry Please</button>
+    <button onclick="show()">Thanks For Watching</button>
+
+
+
+
+
+    <script>
+        function smileOn() {
+
+            document.getElementById('img').src = 'https://st2.depositphotos.com/1001911/7965/v/450/depositphotos_79658338-stock-illustration-laughing-with-closed-eyes-emoticon.jpg';
+
+        }
+        function noEmotion() {
+
+            document.getElementById('img').src = 'https://cdn.w600.comps.canstockphoto.com/vector-yellow-neutral-emoticon-with-eps-vectors_csp87498438.jpg';
+
+        }
+            function faceSad() {
+
+            document.getElementById('img').src = 'https://2.bp.blogspot.com/-KEKHrXBvInA/WSGL6NAAk3I/AAAAAAAAK68/voJNK7IRKcMU3n8gmzXSXUF73X6f8QUcgCLcB/s1600/258___so-sad-emoji.png';
+
+        }
+        function faceAngry() {
+
+            document.getElementById('img').src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDM93tBy7zZYOlcUkHjlm5tEUt4RJHZwYS6g&usqp=CAU';
+
+        } 
+       function show(){
+
+        document.getElementById('img').src ='https://cdn-icons-png.flaticon.com/512/4471/4471044.png';
+       }
+
+
+
+    </script>
+
+</body>
+
+</html>
